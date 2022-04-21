@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+* , 
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+
+
+body  {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: url(assets/bg-intro-desktop.png) rgba(254, 121, 120, 0.95);
+    margin: 60px auto;
+    
+}
+
+.text-cont, .form-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height:500px;
+
+}
+
+
+.text-cont {
+    justify-content: center;
+    width: 40%;
+}
+
+span {
+    font-size: 12px;
+    color: #6d6d6d;
+}
+
+span strong {
+    color: #f49a9e;
+
+}
+a {
+    background-color: #5d53a3;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px 20px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.147);
+    
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    color: white;
+    padding: 10px 0;
+    line-height: 25px ;}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.147);
+
+}
+
+
+.form-cont input {
+    display: block;
+    width: 85%;
+    border: 0.5px solid grey;
+    border-radius: 3px;
+    padding: 10px 15px;
+
+}
+
+.form-cont input:focus {
+    border: black 1px solid;
+}
+
+button {
+    display: block;
+    width: 85%;
+    background-color: #37cc89;
+    padding: 15px 5px;
+    border: 0px;
+    color: white;
+    border-radius: 8px;
+
+}
+
