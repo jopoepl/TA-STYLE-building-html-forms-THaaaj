@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bb050fae99.js" crossorigin="anonymous"></script>
+
+    <title>Form - Assignment II</title>
+</head>
+<body> 
+ <header>
+    <div class="flexr align">
+        <figure class="flexr">
+            <img src="assets/logo.png" alt="logo" class="logo">
+            <strong>JOURNEY</strong>
+        </figure>
+        <nav class="flexr">
+            <ul class="flexr">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Top Destinations</a></li>
+                <li><a href="#">Recommended Places</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+ </header>
+ <main>
+     <section class="letsbegin-cont flexc align">
+         <h2>LET'S BEGIN</h2>
+         <div class="flexc dots">
+             <span></span>
+             <span class="spanbold"></span>
+             <span></span>
+         </div>
+         <h4>We assist you to choose the best.</h4>
+         <div class="arrow-down flexc">
+            <i class="fa-solid fa-angle-down"></i>
+         </div>
+         <form action="#" method="post" class="flexr">
+             <fieldset class="form-cont1 flexc">
+                 <fieldset class="choose-destination1 flexc">
+                 <label for="choose-destination">Choose Your Destination</label> 
+                 <input type="text" id="choose-destination" placeholder="Type your destination...">
+                </fieldset>
+                <fieldset class="check-in1 flexr">
+                 <fieldset class="check-in2 flexc">
+                 <label for="check-in">Check In Date</label>
+                 <input type="date" id="check-in" placeholder="Check In">
+                 </fieldset>
+                 <fieldset class="check-out2 flexc">
+                 <label for="check-out">Check Out Date</label>
+                 <input type="date" id="check-out" placeholder="Check Out">
+                 </fieldset>
+                </fieldset>
+             </fieldset>
+        <fieldset class="form-cont2 flexc">
+          <fieldset class="room-people-cont flexr">
+             <fieldset class="room-cont flexc">
+                <label for="rooms">How Many Rooms?</label>
+                <select name="rooms" id="rooms">
+                <optgroup>
+                    <option value="1 room" selected>1 Room</option>
+                    <option value="2 room">2 Rooms</option>
+                    <option value="3 room">3 Rooms</option>
+                </optgroup>
+                </select>
+             </fieldset>
+             <fieldset class="adult-cont flexc">
+                <label for="adult">Adult</label>
+                <select name="adult" id="adult">
+                <optgroup>
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </optgroup>
+                </select>
+             </fieldset>
+             <fieldset class="child-cont flexc">
+                <label for="children">Children</label>
+                <select name="children" id="children">
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+             </fieldset>
+          </fieldset> 
+                <button>CHECK AVAILABILITY</button>
+        </fieldset>
+         </form>
+     </section>
+     <section class="journey-priority flexc flex30 align">
+         <h2>YOUR <strong>JOURNEY</strong> IS OUR PRIORITY</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam quam cupiditate? Eligendi ex perspiciatis sunt amet ut officiis! Recusandae ab fugiat voluptatum sint repellat corporis quo, earum quis pariatur!</p>
+         <a class="btn" href="#">CONTINUE EXPLORE</a>
+     </section>
+     <section class="popular-places align flexc">
+         <div class="europe-cont flexr">
+             <div  class="arrow-icon flexc">
+                <span class="flexc"><</span>    
+            </div>
+            <div class="arrow-icon flexc">
+                <span class="flexc">></span>   
+            </div>   
+            
+            <article class="europe">
+                <h2>Europe's most visited places</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque beatae, atque animi accusantium nemo deleniti dolore eum ipsam maxime dolorem? Accusamus nemo qui odio enim, eaque nisi quo reprehenderit asperiores.</p>
+                <a class="btn" href="#">CONTINUE READING</a>
+            </article>
+         </div>
+         <div class="asia-cont flexr">
+           <article class="europe">
+               <h2>Asia's most popular places</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque beatae, atque animi accusantium nemo deleniti dolore eum ipsam maxime dolorem? Accusamus nemo qui odio enim, eaque nisi quo reprehenderit asperiores.</p>
+               <a class="btn" href="#">CONTINUE READING</a>
+           </article>
+           <div  class="arrow-icon flexc">
+            <span class="flexc"><</span>    
+        </div>
+        <div class="arrow-icon flexc">
+            <span class="flexc">></span>   
+        </div>   
+        </div>
+        <div class="america-cont flexr">
+            <div  class="arrow-icon flexc">
+               <span class="flexc"><</span>    
+           </div>
+           <div class="arrow-icon flexc">
+               <span class="flexc">></span>   
+           </div>   
+           
+           <article class="europe">
+               <h2>America's most favorite places</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque beatae, atque animi accusantium nemo deleniti dolore eum ipsam maxime dolorem? Accusamus nemo qui odio enim, eaque nisi quo reprehenderit asperiores.</p>
+               <a class="btn" href="#">CONTINUE READING</a>
+           </article>
+        </div>
+     </section>
+     <section class="continents align flexr">
+         <figure>
+            <img src="assets/north-america.png" alt="north america">
+            <figcaption>North America</figcaption>
+         </figure>
+         <figure>
+             <img src="assets/south-america.png" alt="south america">
+             <figcaption>South America</figcaption>
+         </figure>
+         <figure>
+             <img src="assets/europe.png" alt="europe">
+             <figcaption>Europe</figcaption>
+        </figure>
+        <figure class="asia-selected">
+            <img src="assets/asia.png" alt="asia">
+            <figcaption>Asia</figcaption>
+        </figure>
+        <figure>
+            <img src="assets/africa.png" alt="africa">
+            <figcaption>Africa</figcaption>
+        </figure>
+        <figure>
+            <img src="assets/australia.png" alt="australia">
+            <figcaption>Australia</figcaption>
+        </figure>
+        <figure>
+            <img src="assets/antartica.png" alt="antartica">
+            <figcaption>Antartica</figcaption>
+        </figure>
+     </section>
+     <section class="hotel-price align flexc">
+         <article class="flexr hotel-price-box1">
+             <img src="assets/tm-img-05.jpg" alt="hotelimg5">
+             <div class="flexc hotel-price-text">
+                 <h3>ASIA HOTEL RESORT</h3>
+                 <small>Singapore</small>
+                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est repellat ducimus nostrum natus minima, omnis quaerat, placeat porro.</p>
+             </div>
+             <div class="flexc price-btn">
+                 <strong>$440</strong>
+                 <span>CONTINUE READING</span>
+             </div>
+         </article>
+         <article class="flexr">
+            <img src="assets/tm-img-06.jpg" alt="hotelimg6">
+            <div class="flexc hotel-price-text">
+                <h3>ASIA HOTEL RESORT</h3>
+                <small>Singapore</small>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est repellat ducimus nostrum natus minima, omnis quaerat, placeat porro.</p>
+            </div>
+            <div class="flexc price-btn">
+                <strong>$440</strong>
+                <span>CONTINUE READING</span>
+            </div>
+        </article>
+        <article class="flexr">
+            <img src="assets/tm-img-07.jpg" alt="hotelimg7">
+            <div class="flexc hotel-price-text">
+                <h3>ASIA HOTEL RESORT</h3>
+                <small>Singapore</small>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est repellat ducimus nostrum natus minima, omnis quaerat, placeat porro.</p>
+            </div>
+            <div class="flexc price-btn">
+                <strong>$440</strong>
+                <span>CONTINUE READING</span>
+            </div>
+        </article>
+        <article class="flexr">
+            <img src="assets/tm-img-04.jpg" alt="hotelimg4">
+            <div class="flexc hotel-price-text">
+                <h3>ASIA HOTEL RESORT</h3>
+                <small>Singapore</small>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est repellat ducimus nostrum natus minima, omnis quaerat, placeat porro.</p>
+            </div>
+            <div class="flexc price-btn">
+                <strong>$440</strong>
+                <span>CONTINUE READING</span>
+            </div>
+        </article>
+         <a class="btn">
+            SHOW MORE PLACES
+         </a>
+     </section>
+     <section class="maps-forms align">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12674.546038380051!2d-122.0840897!3d37.4220656!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sin!4v1650803844823!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="#" method="post" class="flexc">
+            <fieldset class="flexr">
+                <input type="text" id="name" placeholder="Name">
+                <input type="text" id="email" placeholder="Email">
+            </fieldset>
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <button class="btn">SEND MESSAGE NOW</button>
+        </form>
+
+
+     </section>
+ </main>
+ <footer class="align flexr">
+     <small>Copyright &copy; 2020 Your Company. Designed by Template Mo</small>
+ </footer>
+</body>
+</html>
